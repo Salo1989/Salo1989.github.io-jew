@@ -1,0 +1,93 @@
+body {
+    background: url(torahbk.jpg);
+}
+.container{
+    padding: auto;
+    transform: scale(1.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: row;
+img {
+        width: 400px;
+        height:300px
+        margin:8px;
+        padding: auto;
+      
+          transition: all 1s;
+      }
+img:hover{
+        transform: scale(1.1);
+      }
+.body {
+    .zion: #d7e7fa;
+    margin-bottom: 50px;
+    font-size: italic
+}
+h1{
+    color: white;
+    font-family:fantasy, sans-serif;
+    font-size: 3em;
+    align-content: center;
+    border-bottom: 2px solid pink;
+    box-shadow: 4px 4px 5px red;
+  }
+  .container{
+    transform: scale(1.1);
+  }
+
+  .button {
+    color: #FFF;
+    background-color: #5995DA;    /* Blue */
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;    /* Dark gray */
+    border-radius: 5px;
+    
+    width: 200px;
+    margin: 20px auto;
+    }
+
+    P {
+    padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      /* Mobile Styles */
+      @media only screen and (max-width: 400px) {
+        body {
+          background-color: #F09A9D; /* Red */
+        }
+      }
+      
+      /* Tablet Styles */
+      @media only screen and (min-width: 401px) and (max-width: 960px) {
+        body {
+          background-color: #F5CF8E; /* Yellow */
+        }
+      }
+      
+      /* Desktop Styles */
+      @media only screen and (min-width: 961px) {
+        body {
+          background-color: #B2D6FF; /* Blue */
+        }
+      }
+      footer {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        background-color: #45a1ff;
+        color: #fff;}
+
+      p {
+        padding: auto;
+      }
